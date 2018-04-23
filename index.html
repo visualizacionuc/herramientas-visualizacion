@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Herramientas de visualización</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <style type="text/css">
+      img{
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+          <h1 class="text-center">Herramientas de visualización <small>1.5hs</small></h1>
+        </div>
+        <hr>
+        <div class="row">
+          <h2>Catálogos de visualizaciones</h2>
+          <div class="col-md-12">
+            <p class="lead">Antes de lanzarnos a realizar un gráfico debemos tomarnos un poco de nuestro tiempo y ver qué tipo de relación existe entre sus datos y qué queremos mostrar: comparativa de datos, relación entre ellos, jerarquía, localización geográfica, distribución, rango… y así poder elegir el tipo de gráfico adecuado (líneas, barras, tartas, treemaps, dispersión,…). Aquí algunas referencias muy útiles para guiarnos en nuestras decisiones:</p>
+            <img src="https://cdn-images-1.medium.com/max/1000/1*zFEmF-_nGIBfZOhoOJXSwg.png" class="img-responsive"/>
+            <p>
+              <ul>
+                <li><a href="http://www.datavizcatalogue.com/search.html" target="_blank"><strong>The Data Visualization Catalogue</strong></a><strong>.</strong> Imprescindible para elegir el tipo de gráfico y la aplicación para realizarlo. Ofrece alternativas a la visualización elegida.</li>
+                <li><a href="http://ft-interactive.github.io/visual-vocabulary/" target="_blank"><strong>Visual vocabulary</strong></a> de Financial Times Data. En <a href="https://github.com/ft-interactive/chart-doctor/tree/master/visual-vocabulary" target="_blank">póster</a> para tener impreso cerca. Explica cada gráfica con una breve descripción de uso. Muy útil.</li>
+                <li><a href="https://visual.ly/blog/graphic-continuum/" target="_blank"><strong>The Graphic continuum</strong></a>. Gráficas bajo seis categorías: distribución, tiempo, geolocalización… Una visión ordenada.</li>
+                <li><a href="http://datavizproject.com/#" target="_blank"><strong>Data Viz Project</strong></a>. Completo catálogo por tipos de gráficos y, muy útil, por forma de cargar los datos que tenemos. Tiene muy buenos ejemplos.</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+        <hr/>
+        <div class="row">
+          <h2>Gráficos en la web</h2>
+          <div class="col-md-12">
+            <p class="lead">Basándonos en la premisa de que tenemos los datos en Excel, Google spreadsheets, tenemos cada vez más herramientas con las que poder hacer gráficos sin necesidad de recurrir a escribir código. Aplicaciones online con un amplio abanico de ofertas para todos los bolsillos. El funcionamiento de todas es bastante parecido: subir/copiar datos, revisarlos/editarlos, elegir la visualización, customizar el gráfico y publicar (código, imagen estática, svg…).:</p>
+            <img src="https://cdn-images-1.medium.com/max/1000/1*vwn2v9g0GWPsE8bch4DAgw.png"/>
+            <p>
+              <ul>
+                <li><a href="https://www.datawrapper.de/" target="_blank"><strong>Datawrapper</strong></a><strong>: </strong>Herramienta robusta y en un continuo desarrollo (con una dirección periodística). Ofrece visualizaciones de datos básicas (barras, líneas, tartas) y ahora más complejas (dispersión y mapas de cloropetas,…). Nivel mínimo de complejidad y customizable. Tiene un repositorio de gráficos para compartir <a href="https://river.datawrapper.de/" target="_blank">The River</a>. <a href="https://www.datawrapper.de/" target="_blank"><em>Lo utilizan</em></a> The Times, ZEIT Online, la Repubblica, Fortune Magazine, Mother Jones, El Pais,&nbsp;…</li>
+                <li><a href="https://flourish.studio/features/" target="_blank"><strong>Flourish</strong></a><strong>: </strong>Plataforma reciente para que permite <a href="https://flourish.studio/charts/survey-visualisations/" target="_blank">combinar varias visualizaciones</a> (presentaciones): barras/líneas, de red, <em>sankey</em>, dispersión, mapas. Es muy fácil trabajar con ella al utilizar plantillas predefinidas en los que cargamos nuestros datos. Promete y mucho.</li>
+                <li><a href="http://www.quadrigram.com/blog/" target="_blank"><strong>Quadrigam</strong></a><strong>: </strong>Permite combinar también a modo de dashboard varios tipos de gráficos (<em>treemaps</em>, de cuerda, barras y líneas, mapas…). La introducción de los datos es algo peculiar y el resultado muy bueno. Permite realizar dashboards con varias gráficas.<a href="http://www.quadrigram.com/gallery/" target="_blank"><em> Lo utilizan…</em></a></li>
+                <li><a href="https://onodo.org/" target="_blank"><strong>Onodo.org</strong></a><strong>: </strong>Para árboles de relaciones. Esta iniciativa de Civio y Eurocat es más que recomendable a la hora de presentar relaciones complejas (tramas, composiciones de empresas…). Incluso cuando son muy complicadas. <a href="https://onodo.org/explore" target="_blank"><em>Lo utilizan…</em></a></li>
+                <li><a href="https://infogram.com/features" target="_blank"><strong>Infogram</strong></a><strong>: </strong>Una aplicación muy versátil y sencilla de manejar que permite tanto la creación de gráficas estadísticas como de infografías diagramáticas y con uso de pictogramas. Muy bien enfocado a redes sociales. <a href="https://infogram.com/customers" target="_blank"><em>Lo utilizan…</em></a></li>
+                <li><a href="http://www.tableau.com/es-es/about/blog" target="_blank"><strong>Tableau</strong></a><strong>: </strong>Plataforma robusta para realizar gráficos estadísticos y visualizaciones de grandes datos. Mucho más compleja que las anteriores y muy eficiente a la hora de trabajar con análisis de grandes datos y creación de <em>dashboards</em> interactivos. <a href="https://www.tableau.com/es-es/solutions" target="_blank"><em>Lo utilizan…</em></a></li>
+                <li><a href="http://app.rawgraphs.io/" target="_blank"><strong>RAW Graphs</strong></a>. Framework de visualización de datos de código abierto construido con el objetivo de hacer que la representación visual de datos complejos sea fácil para todos.</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+        <hr/>
+        <div class="row">
+          <h2>Datos geográficos y series de tiempo</h2>
+          <div class="col-md-12">
+            <p class="lead">Cuando necesitamos representar datos/información en una ubicación geográfica, contamos con herramientas intuitivas con muy buenos resultados (además de las aplicaciones anteriores que también ofrecen la posibilidad de editar y publicar mapas). Algunas de ellas:</p>
+            <img src="https://cdn-images-1.medium.com/max/1000/1*CcLNmPBAMidzGzsW4sXqZA.png"/>
+            <p>
+              <ul>
+
+                <li><a href="https://carto.com/" data-href="https://carto.com/" class="markup--anchor markup--li-anchor" rel="nofollow noopener" target="_blank"><strong class="markup--strong markup--li-strong">CARTO</strong></a><strong class="markup--strong markup--li-strong">: </strong>Geolocalización de grandes volúmenes de datos y combinación con visualizaciones. Integración con lenguajes de programación en D3js. Es una plataforma en plena expansión sobre google maps y está siendo incorporado por múltiples empresas para tomas de decisiones. <a href="https://carto.com/solutions/" data-href="https://carto.com/solutions/" class="markup--anchor markup--li-anchor" rel="nofollow noopener" target="_blank"><em class="markup--em markup--li-em">Lo utilizan…</em></a></li>
+                <li><a href="https://www.mapbox.com/maps/" data-href="https://www.mapbox.com/maps/" class="markup--anchor markup--li-anchor" rel="noopener nofollow" target="_blank"><strong class="markup--strong markup--li-strong">Map4News</strong></a><strong class="markup--strong markup--li-strong">: </strong>Muy buena herramienta para las redacciones. Enfocada a la localización de noticias, incorpora también interactividad en los mapas realizados. Permite además exportar en&nbsp;.pdf y&nbsp;.svg para publicaciones impresas. <a href="https://maps4news.com/es/gallery/" data-href="https://maps4news.com/es/gallery/" class="markup--anchor markup--li-anchor" rel="noopener nofollow" target="_blank"><em class="markup--em markup--li-em">Lo utilizan…</em></a></li>
+                <li><a href="https://www.mapbox.com/maps/" data-href="https://www.mapbox.com/maps/" class="markup--anchor markup--li-anchor" rel="nofollow noopener" target="_blank"><strong class="markup--strong markup--li-strong">Mapbox</strong></a><strong class="markup--strong markup--li-strong">: </strong>Para la geolocalización y creación de mapas más complejos. Base de diseño con los que trabajar luego en otras aplicaciones como por ejemplo CARTO. <a href="https://www.mapbox.com/showcase/" data-href="https://www.mapbox.com/showcase/" class="markup--anchor markup--li-anchor" rel="nofollow noopener" target="_blank"><em class="markup--em markup--li-em">Lo utilizan…</em></a></li>
+                <li><a href="https://storymap.knightlab.com/" data-href="https://storymap.knightlab.com/" class="markup--anchor markup--li-anchor" rel="nofollow noopener" target="_blank"><strong class="markup--strong markup--li-strong">StoryMapJS</strong></a><strong class="markup--strong markup--li-strong">: </strong>Herramienta creada en el <a href="https://knightlab.northwestern.edu/" data-href="https://knightlab.northwestern.edu/" class="markup--anchor markup--li-anchor" rel="nofollow noopener" target="_blank">Knight Lab</a> para desarrollar narrativas sobre mapas y gigapixels. Muy sencilla (usando Google Spreadsheets) se adapta bastante bien a dispositivos móviles. <a href="https://storymap.knightlab.com/#examples" data-href="https://storymap.knightlab.com/#examples" class="markup--anchor markup--li-anchor" rel="nofollow noopener" target="_blank"><em class="markup--em markup--li-em">Lo utilizan…</em></a></li>
+                <li><a href="https://www.google.com/maps/about/mymaps/" data-href="https://www.google.com/maps/about/mymaps/" class="markup--anchor markup--li-anchor" rel="nofollow noopener" target="_blank"><strong class="markup--strong markup--li-strong">Google Maps</strong></a><strong class="markup--strong markup--li-strong">: </strong>Y por supuesto la plataforma de Google My Maps. Sencilla y robusta. Con un poco de conocimiento de código y <a href="https://developers.google.com/maps/web/?hl=es-419" data-href="https://developers.google.com/maps/web/?hl=es-419" class="markup--anchor markup--li-anchor" rel="nofollow noopener" target="_blank">usando sus API</a> pueden obtenerse grandes resultados. Existen aplicaciones. <a href="https://www.google.com/maps/d/u/0/?page=explore&amp;hl=es" data-href="https://www.google.com/maps/d/u/0/?page=explore&amp;hl=es" class="markup--anchor markup--li-anchor" rel="nofollow noopener" target="_blank"><em class="markup--em markup--li-em">Lo utilizan…</em></a></li>
+                <li><a href="http://timeline.knightlab.com/" data-href="http://timeline.knightlab.com/" class="markup--anchor markup--li-anchor" rel="nofollow noopener" target="_blank"><strong class="markup--strong markup--li-strong">TimelineJS</strong></a><strong class="markup--strong markup--li-strong">: </strong>Desarrollo horizontal de la narrativa. Herramienta también de Knight Lab basada en una hoja de Google Spreadsheets que permite incorporar todo tipo de elementos multimedia. <a href="http://timeline.knightlab.com/#examples" data-href="http://timeline.knightlab.com/#examples" class="markup--anchor markup--li-anchor" rel="nofollow noopener" target="_blank"><em class="markup--em markup--li-em">Lo utilizan…</em></a></li>
+                <li><a href="https://www.sutori.com/" data-href="https://www.sutori.com/" class="markup--anchor markup--li-anchor" rel="nofollow noopener" target="_blank"><strong class="markup--strong markup--li-strong">Sutori</strong></a><strong class="markup--strong markup--li-strong">: </strong>Desarrollo vertical del contenido con un amplio abanico de elementos multimedia. Permite imprimir en&nbsp;.pdf. <a href="http://www.bbc.com/travel/story/20160531-the-us-national-parks-turn-100" data-href="http://www.bbc.com/travel/story/20160531-the-us-national-parks-turn-100" class="markup--anchor markup--li-anchor" rel="nofollow noopener" target="_blank"><em class="markup--em markup--li-em">Lo utilizan…</em></a></li>
+              </ul>
+            </p>
+          </div>
+        </div>
+    </div>
+
+    <hr/>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Pablo H. Paladino - <a href="http://twitter.com/palamago">@palamago</a></p>
+        <p>Fuentes:</p>
+        <ul>
+          <li><a target="_blank" href="https://medium.com/@rhohr/aplicaciones-para-crear-gr%C3%A1ficos-563a0cb99557">Post</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </body>
+</html>

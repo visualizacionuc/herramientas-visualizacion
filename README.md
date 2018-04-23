@@ -11,4 +11,4 @@ Ver online: [aquí](https://visualizacionuc.github.io/herramientas-visualizacion
 ### Datos geográficos y series de tiempo
 
 ### Fuentes
-[Rafa Höhr' Post](https://medium.com/@rhohr/aplicaciones-para-crear-gr%C3%A1ficos-563a0cb99557)
+[Rafa Höhr's Post](https://medium.com/@rhohr/aplicaciones-para-crear-gr%C3%A1ficos-563a0cb99557)
